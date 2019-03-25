@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2c449584-0795-490c-a211-9e52f6df3770" name="line.sambungkata.com" url="https://line.sambungkata.com/botcp/">
+        <fileTransfer host="line.sambungkata.com" port="22" rootFolder="/home/creacle/www/linesambungkatacom/botcp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ff3a21fa-6dd9-46da-ab5e-086a16d0fe15" name="Bot Dyodoran" url="https://dev2.iluzi.id/botcp">
+        <fileTransfer host="dev2.iluzi.id" port="22" rootFolder="/home/silenceangel/www/dev2iluziid/botcp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
