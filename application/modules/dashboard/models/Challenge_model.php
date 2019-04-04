@@ -14,24 +14,20 @@ class Challenge_model extends CI_Model
     {
         parent::__construct();
     }
-    
-    // public function getData()
-    // {
-    //     $hasil=$this->db->get_where('challenge', array('id' => $id));
-    //     return $hasil->result();
-    // }
+
+    public function get_user($id)
+    {
+        $query = $this->db->get_where($this->table, array('id' => $id));
+        if($query->num_rows()) return $query->row();
+        return NULL;
+    }
 
     public function get_challenge($id = null)
     {
-    	// $this->db->from('challenge');
-    	// if($id != null){
-    	// 	$this->db->where('id', $id);
-    	// }
-    	// $query = $this->db->get();
-    	// return $query;
         $query = $this->db->get('challenge');
-        if($query->result()) return $query->result();
-        return NULL;
+        return $query->result();
+        // if($query->result()) return $query->result();
+        // return NULL;
     }
 
     function update($id, $data){

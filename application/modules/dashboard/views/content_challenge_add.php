@@ -162,7 +162,7 @@
                                     <div class="col-md-6" align="left">
                                     </div>
                                     <div class="col-md-6" align="right">
-                                        <button type="button" class="btn btn-default waves-effect" onclick="location.href='auth_group'">
+                                        <button type="button" class="btn btn-default waves-effect" onclick="location.href='challenge'">
                                             <i class="material-icons">keyboard_return</i>
                                         </button>
                                         <button type="submit" class="btn btn-primary waves-effect">
